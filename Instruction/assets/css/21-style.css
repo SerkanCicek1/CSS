@@ -1,0 +1,16 @@
+:root{
+    --renk1:rgb(19, 32, 221);
+    --color2:purple;
+    --background-color:green;
+    --ortala:center;
+}
+
+h1.baslik {
+    color: var(--renk1);
+    text-align: var(--ortala);
+}
+
+.span-el{
+    background-color: var(--background-color);
+    color: var(--color2);
+}
