@@ -1,0 +1,46 @@
+:root{
+    --color1:rgb(240, 73, 73);
+    --color2:rgb(0, 157, 255);
+    --color3:rgb(249, 244, 244);
+
+}
+
+nav.menu{
+    background-color: var(--color1);
+    text-align: center;
+    margin-top: 1rem;
+}
+nav.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li{
+    display: inline-block;
+}
+
+nav.menu ul li::after{
+    content: "|";
+    color: var(--color3);
+}
+nav.menu ul li:last-child::after{
+    content: "▶";
+    color:black;
+}
+
+nav.menu ul li:first-child::before{
+    content: "◀";
+    color:black;
+}
+nav.menu a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: aqua;
+}
+
+nav.menu a:hover{
+    background-color: var(--color2);
+    color: black;
+}
