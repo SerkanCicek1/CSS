@@ -1,0 +1,44 @@
+nav.menu li{
+    background-color: red;
+}
+nav.menu > ul >li{
+    color: greenyellow;
+}
+
+nav.menu > ul > ul>li {
+
+    color: cadetblue;
+}
+
+nav.menu > ul > ul>li:last-child{
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: rgb(80, 127, 168);
+}
+
+nav.menu +p {
+    color: blue;
+}
+
+div.div-el + p{
+font-size: 1.5rem;
+color: rgb(43, 226, 64);
+}
+
+div.div-el > p{
+    color:crimson;
+}
+
+nav.menu ~ p{
+    font-size: 1.5rem;
+    color: rgb(0, 255, 81);
+}
+
+nav.menu > ul>li:nth-child(2)~li{
+    color: rgb(19, 19, 19);
+}
+.p-el+p {
+    background-color: burlywood;
+}
