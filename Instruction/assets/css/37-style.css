@@ -1,0 +1,32 @@
+.border-1{
+    border: 3px dashed red;
+}
+.border-2{
+    border-left: 3px groove blue;
+    border-top: 13px double rgb(87, 87, 218);
+    padding: 1rem;
+}
+.border-3{
+    border:12px outset purple ;
+}
+.border-4{
+    border:12px inset purple ;
+    border-radius: 10px 20px 10px 35px ;
+    -webkit-border-radius: 10px 20px 10px 35px ;
+    -moz-border-radius: 10px 20px 10px 35px ;
+    -ms-border-radius: 10px 20px 10px 35px ;
+    -o-border-radius: 10px 20px 10px 35px ;
+    text-align: center;
+}
+.border-5{
+    border:12px double rgb(121, 223, 221) ;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+   border-style: ridge;
+}

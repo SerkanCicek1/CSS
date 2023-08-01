@@ -1,0 +1,21 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.box-1{
+    box-sizing: border-box;
+    background-color: rgb(141, 71, 206);
+    width: 500px;
+    border: 5px solid red;
+    padding: 20px;
+    margin: 30px;
+}
+
+.box-2{
+    box-sizing: content-box;
+    background-color: rgb(125, 226, 43);
+    width: 500px;
+    border: 5px solid rgb(0, 136, 255);
+    padding: 20px;
+    margin: 30px;
+}
