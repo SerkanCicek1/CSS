@@ -1,0 +1,108 @@
+:root{
+    --color1: rgb(70, 189, 244);
+    --color2: #FBB040;
+    --color3: rgb(52, 52, 52);
+    --color4:rgb(227, 222, 222);
+    --colorWhatsapp:green;
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+section.topbar{
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: var(--color4);
+
+}
+section.topbar ul,section.menubar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+section.topbar a{
+    text-decoration: none;
+    color: var(--color2);
+
+}
+section.menubar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+position: sticky;
+top: 0;
+background-color: var(--color4);
+
+
+}
+
+section.menubar img{
+    width: 300px;
+    height: auto;
+}
+section.menubar  ul a{
+    text-decoration: none;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+section.menubar  ul a:hover{
+   background-color: var(--color3);
+    color: var(--color1);
+}
+section.slider{
+    background-image: url('../img/gunesin_dogusu_ve_batisi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    position: relative;
+
+
+}
+section.slider h2{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.4rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 80px;
+    color: var(--color4);
+    text-shadow: 0 0 10px var(--color4);
+
+
+}
+div.icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    background-color: var(--colorWhatsapp);
+    color: var(--color4);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

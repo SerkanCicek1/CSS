@@ -1,0 +1,16 @@
+nav.menu{
+    background-color: aqua;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    position: fixed;
+    z-index: 0;
+    
+    }
+    table.price-list thead{
+        background-color: rgb(55, 255, 0);
+        font-size: 1rem;
+        position: sticky;
+        top: 150px;
+        z-index: 5;
+    }

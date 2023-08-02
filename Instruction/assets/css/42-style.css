@@ -1,0 +1,41 @@
+.input-group{
+    background-color: rgb(51, 49, 49);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin:3rem;
+    position: relative;
+}
+.input-group input{
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(188, 182, 219);
+    padding:0 10px;
+
+
+
+}
+.input-group button{
+    background-color: orange;
+/*     background-image: linear-gradient(cyan,white); */
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 6px;
+    border: none;
+    position: absolute;
+ bottom: 1.5px;
+    top: 1.5px;
+    right: 1.5px;
+}
+.input-group button:hover{
+    background-image: linear-gradient(to bottom,orange,rgb(158, 27, 27));
+    cursor: pointer;
+}
