@@ -1,0 +1,37 @@
+body{
+    padding: 20px;
+}
+div.boxes{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+.boxes div{
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.boxes div:last-child{
+    background-color: red;
+    display: none;
+}
+@media screen and (min-width: 567px) {
+    div.boxes {
+        flex-direction: row;
+    }
+    .boxes div:last-child{
+        background-color: rgb(183, 0, 255);
+        display: inline-block;
+    }
+    .boxes div:first-child{
+        background-color: rgb(0, 255, 4);
+    }
+    
+}

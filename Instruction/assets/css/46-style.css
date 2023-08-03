@@ -1,0 +1,78 @@
+.box{
+    width: 120px;
+    height: 120px;
+    margin:3rem auto;
+}
+
+.box1{
+    background-color: blue;
+    transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -ms-transition: background-color 2s;
+    -o-transition: background-color 2s;
+}
+.box1:hover{
+    background-color: rgb(184, 86, 91);
+    cursor: pointer;
+}
+.box2{
+    background-color: crimson;
+    transition: transform 0.5s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+.box2:hover{
+    transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+}
+.box3{
+    background-color: seagreen;
+    transition: transform 0.7s,  background-color 3s ease-in-out  ;
+    -webkit-transition: transform 0.7s,  background-color 3s ease-in-out  ;
+    -moz-transition: transform 0.7s,  background-color 3s ease-in-out  ;
+    -ms-transition: transform 0.7s,  background-color 3s ease-in-out  ;
+    -o-transition: transform 0.7s,  background-color 3s ease-in-out  ;
+}
+
+.box3:active{
+    transform: scale(1.5) rotate(45deg) ;
+    -webkit-transform: scale(1.5) rotate(45deg) ;
+    -moz-transform: scale(1.5) rotate(45deg) ;
+    -ms-transform: scale(1.5) rotate(45deg) ;
+    -o-transform: scale(1.5) rotate(45deg) ;
+    cursor: pointer;
+    background-color: chocolate;
+}
+.box4{
+    background-color: yellow;
+    transform: rotate(10deg);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+.box4:hover{
+    transform: rotate(190deg) skew(45deg);
+    -webkit-transform: rotate(190deg) skew(45deg);
+    -moz-transform: rotate(190deg) skew(45deg);
+    -ms-transform: rotate(190deg) skew(45deg);
+    -o-transform: rotate(190deg) skew(45deg);
+    background-color: hotpink;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
